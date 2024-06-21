@@ -59,7 +59,7 @@
       ]
     },
     {
-      "group": "Explore",
+      "group": "explore",
       "pages": [
         "explore/markdown",
         "explore/code",
