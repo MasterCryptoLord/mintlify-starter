@@ -13,12 +13,12 @@
 
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#d41e49",
+    "light": "#d41e49",
+    "dark": "#d41e49",
     "anchors": {
       "from": "#0D9373",
-      "to": "#07C983"
+      "to": "#d41e49"
     }
   },
   "topbarLinks": [
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "group": "explore",
+      "group": "Explore",
       "pages": [
         "explore/markdown",
         "essentials/code",
