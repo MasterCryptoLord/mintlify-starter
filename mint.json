@@ -1,18 +1,19 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Zaibot",
   "logo": {
-    "dark": "/logo/dark.svg",
+    "dark": "/logo/dark.png",
     "light": "/logo/light.svg"
   },
 
-  "modeToggle": {
+
+"modeToggle": {
   "default": "dark",
   "isHidden": true
 },
 
 
-  "favicon": "/favicon.svg",
+  "favicon": "/images/small-md.svg",
   "colors": {
     "primary": "#03ffff",
     "light": "#03ffff",
@@ -22,51 +23,48 @@
       "to": "#03ffff"
     }
   },
+
+  
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@suaicat.ai"
+      "url": "mailto:team@zaibot.io"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://zaibot.io/"
   },
   "anchors": [
     {
-      "name": "Website",
-      "icon": "website",
-      "url": "https://suaicat.cai/"
-    },
-    {
       "name": "X (Twitter)",
       "icon": "x",
-      "url": "https://x.com/suaicat"
+      "url": "https://x.com/zaibotio/"
     },
     {
       "name": "Community",
       "icon": "telegram",
-      "url": "https://t.me/suaibot"
+      "url": "https://t.me/zaibotpublic"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
-      "group": "explore",
+      "group": "Explore",
       "pages": [
-        "explore/markdown",
-        "explore/code",
-        "explore/images",
-        "explore/settings",
-        "explore/navigation",
-        "explore/reusable-snippets"
+        "explore/revenue",
+        "explore/tracking",
+        "explore/trending",
+        "explore/referrals",
+        "explore/leaderboard",
+        "explore/staking",
+        "explore/share",
+        "explore/group"
       ]
     },
     {
@@ -78,8 +76,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "website": "https://www.zaibot.io/",
+    "telegram": "https://t.me/zaibotpublic",
+    "twitter": "https://x.com/zaibotio/"
   }
 }
