@@ -64,9 +64,9 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "explore",
       "pages": [
-        "essentials/markdown",
+        "explore/markdown",
         "essentials/code",
         "essentials/images",
         "essentials/settings",
