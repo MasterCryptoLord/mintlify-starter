@@ -1,19 +1,18 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Zaibot",
+  "name": "Starter Kit",
   "logo": {
-    "dark": "/logo/dark.png",
+    "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
 
-
-"modeToggle": {
+  "modeToggle": {
   "default": "dark",
   "isHidden": true
 },
 
 
-  "favicon": "/images/small-md.svg",
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#03ffff",
     "light": "#03ffff",
@@ -23,48 +22,51 @@
       "to": "#03ffff"
     }
   },
-
-  
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:team@zaibot.io"
+      "url": "mailto:support@suaicat.ai"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://zaibot.io/"
+    "url": "https://dashboard.mintlify.com"
   },
   "anchors": [
     {
+      "name": "Website",
+      "icon": "website",
+      "url": "https://suaicat.cai/"
+    },
+    {
       "name": "X (Twitter)",
       "icon": "x",
-      "url": "https://x.com/zaibotio/"
+      "url": "https://x.com/suaicat"
     },
     {
       "name": "Community",
       "icon": "telegram",
-      "url": "https://t.me/zaibotpublic"
+      "url": "https://t.me/suaibot"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction"
+        "introduction",
+        "quickstart",
+        "development"
       ]
     },
     {
-      "group": "Explore",
+      "group": "explore",
       "pages": [
-        "explore/revenue",
-        "explore/tracking",
-        "explore/trending",
-        "explore/referrals",
-        "explore/leaderboard",
-        "explore/staking",
-        "explore/share",
-        "explore/group"
+        "explore/markdown",
+        "explore/code",
+        "explore/images",
+        "explore/settings",
+        "explore/navigation",
+        "explore/reusable-snippets"
       ]
     },
     {
@@ -76,8 +78,8 @@
     }
   ],
   "footerSocials": {
-    "website": "https://www.zaibot.io/",
-    "telegram": "https://t.me/zaibotpublic",
-    "twitter": "https://x.com/zaibotio/"
+    "x": "https://x.com/mintlify",
+    "github": "https://github.com/mintlify",
+    "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }
